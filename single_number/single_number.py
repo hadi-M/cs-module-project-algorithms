@@ -4,8 +4,7 @@ Returns: an integer
 '''
 def single_number(arr):
     # Your code here
-
-    pass
+    return sum(set(arr)) * 2 - sum(arr)
 
 
 if __name__ == '__main__':
